@@ -1,4 +1,4 @@
-![Language](https://img.shields.io/badge/language-python--3.8.2-blue)
+
 
 <!-- PROJECT LOGO -->
 <br />
