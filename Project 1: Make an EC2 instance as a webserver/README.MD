@@ -16,7 +16,19 @@ Install Apache Web Server in the EC2 instance:
 
 ![APT](./images/2.PNG)
 
+Print the instance id as the index.html page for the we server
 
+![APT](./images/3.PNG)
+
+Start the Apache Web Server
+
+![APT](./images/4.PNG)
+
+Copy the Public IPv4 address and view it in browser
+
+![APT](./images/5.PNG)
+
+![APT](./images/6.PNG)
 
 <!-- CONTACT -->
 
