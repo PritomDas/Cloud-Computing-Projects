@@ -12,7 +12,8 @@ This is fairly a simple project in two parts. The first part focuses on creating
 Create any Free Tier eligible EC2 instance. Use "Putty" and "PuttyGen" to convert the key-pair pem file to a ppk file. After successfully login to the EC2 instance from putty, it should like something like this:
 ![APT](./images/1.PNG)
 
-![APT](./images/4.PNG)
+Install Apache Web Server in the EC2 instance
+![APT](./images/2.PNG)
 
 
 
