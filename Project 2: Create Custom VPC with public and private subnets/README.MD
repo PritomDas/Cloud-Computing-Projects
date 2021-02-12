@@ -18,6 +18,8 @@ In this project I have created a custom VPC in AWS. The reference architecture d
 
 ## Follow Along:
 
+### Part 1: Designing the VPC Architecture
+
 Create VPC in the AWS Management Console:
 
 ![APT](./images/1.PNG)
@@ -51,20 +53,29 @@ Now we need to create a new Route Table and we will associate this route table w
 ![APT](./images/10.PNG)
 
 
-Copy the Public IPv4 address and view it in browser
+Now we will make our Subnet 1 as our Public Subnet. To do this, select "Edit Subnet Associations" and then choose the Subnet 1 that we created earlier:
 
+![APT](./images/11.PNG)
 
-The Final Output for Part 1:
+One crucial task to make any subnet as public subnet is by enabling " Auto-Assign IPv4 address". We need to ebnable this option for our Subnet 1:
 
-
-
-### Part 2: Bootstrap
-
-Create another free tier eligible EC2 instance and in the "User Data" write like the following:
+![APT](./images/12.PNG)
 
 
 
-The Final Output for Part 2:
+
+### Part 2: Creating EC2 Resources to put our Application Tier and Database Tier inside our Custom VPC:
+
+Now we can start putting resources inside our VPC. Let's assume the Application and Database Tier will be put on two different EC2 Instances. We will create two new EC2 Instances. We will put Application Tier EC2 instance in Public Sunet 1 and then we will put the Database Tier EC2 Instance in Private Subnet of our VPC:
+
+
+![APT](./images/13.PNG)
+
+![APT](./images/14.PNG)
+
+![APT](./images/15.PNG)
+
+
 
 
 <!-- CONTACT -->
