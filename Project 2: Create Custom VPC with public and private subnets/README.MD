@@ -1,7 +1,16 @@
+<!-- PROJECT LOGO -->
+<br />
+
+<p align="center">
+  <img src="./images/16.PNG" alt="Logo" width="100" height="100">
+</p>
+
+
+> AWS, VPC, Custom VPC, Public Subnet, Private Subnet
 
 <!-- ABOUT THE PROJECT -->
 
-# Make an EC2 Instance a webserver and Bootstrapping
+# Create Custom VPC with public and private subnet
 
 ## Project Description
 
