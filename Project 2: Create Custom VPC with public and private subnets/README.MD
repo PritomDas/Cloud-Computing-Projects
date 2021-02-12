@@ -42,8 +42,13 @@ After successfully attaching this Internet Gateway to our custom VPC, the Intern
 
 ![APT](./images/7.PNG)
 
-Start the Apache Web Server
+Now we need to create a new Route Table and we will associate this route table with the Internet Gateway:
 
+![APT](./images/8.PNG)
+
+![APT](./images/9.PNG)
+
+![APT](./images/10.PNG)
 
 
 Copy the Public IPv4 address and view it in browser
