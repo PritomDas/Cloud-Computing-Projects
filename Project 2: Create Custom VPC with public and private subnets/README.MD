@@ -18,40 +18,42 @@ In this project I have created a custom VPC in AWS. The reference architecture d
 
 ## Follow Along:
 
-#### Create VPC in the AWS Management Console
-Head over to AWS VPC Services and then create a new VPC
+Create VPC in the AWS Management Console:
+
 ![APT](./images/1.PNG)
 
-Install Apache Web Server in the EC2 instance:
+Create new subnets, I will create two subnets where I will make one public subnet and one private subnet:
 
 ![APT](./images/2.PNG)
 
-Print the instance id as the index.html page for the Apache web server
-
 ![APT](./images/3.PNG)
-
-Start the Apache Web Server
 
 ![APT](./images/4.PNG)
 
+Print the instance id as the index.html page for the Apache web server
+
+
+
+Start the Apache Web Server
+
+
+
 Copy the Public IPv4 address and view it in browser
 
-![APT](./images/5.PNG)
 
 The Final Output for Part 1:
 
-![APT](./images/6.PNG)
 
 
 ### Part 2: Bootstrap
 
 Create another free tier eligible EC2 instance and in the "User Data" write like the following:
 
-![APT](./images/7.PNG)
+
 
 The Final Output for Part 2:
 
-![APT](./images/8.PNG)
+
 <!-- CONTACT -->
 
 ## Contact
