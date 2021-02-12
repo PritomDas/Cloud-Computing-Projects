@@ -17,7 +17,7 @@ Install Apache Web Server in the EC2 instance:
 
 ![APT](./images/2.PNG)
 
-Print the instance id as the index.html page for the we server
+Print the instance id as the index.html page for the Apache web server
 
 ![APT](./images/3.PNG)
 
