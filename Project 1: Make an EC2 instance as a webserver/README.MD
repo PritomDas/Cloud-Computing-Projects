@@ -1,14 +1,15 @@
 
 <!-- ABOUT THE PROJECT -->
 
-## Make an EC2 Instance a webserver and Bootstrapping
+# Make an EC2 Instance a webserver and Bootstrapping
 
-### Project Description
+## Project Description
 
 This is fairly a simple project in two parts. The first part focuses on creating an EC2 instance from the AWS Management Console and then connecting to this instance from Putty. Then follow some manual process to install Apache Web Server and print the instance id in the html page. The second part of this project focuses on automating the whole process by bootstrapping the EC2 instance.
 
-### Follow Along:
+## Follow Along:
 
+### Part 1
 Create any Free Tier eligible EC2 instance. Use "Putty" and "PuttyGen" to convert the key-pair pem file to a ppk file. After successfully login to the EC2 instance from putty, it should like something like this:
 ![APT](./images/1.PNG)
 
@@ -28,8 +29,20 @@ Copy the Public IPv4 address and view it in browser
 
 ![APT](./images/5.PNG)
 
+The Final Output for Part 1:
+
 ![APT](./images/6.PNG)
 
+
+### Part 2: Bootstrap
+
+Create another free tier eligible EC2 instance and in the "User Data" write like the following:
+
+![APT](./images/7.PNG)
+
+The Final Output for Part 2:
+
+![APT](./images/8.PNG)
 <!-- CONTACT -->
 
 ## Contact
