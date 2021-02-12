@@ -14,12 +14,12 @@
 
 ## Project Description
 
-This is fairly a simple project in two parts. The first part focuses on creating an EC2 instance from the AWS Management Console and then connecting to this instance from Putty. Then follow some manual process to install Apache Web Server and print the instance id in the html page. The second part of this project focuses on automating the whole process by bootstrapping the EC2 instance.
+In this project I have created a custom VPC in AWS. The reference architecture diagram is provided as the project logo. I have created two subnets where one is a public subnet and the other is a private subnet. The public subnet could simulate as Web Server which is the Application Tier. For maintaining security concerns, the private subnet could simulate as Database Server which is the Database Tier.
 
 ## Follow Along:
 
-### Part 1
-Create any Free Tier eligible EC2 instance. Use "Putty" and "PuttyGen" to convert the key-pair pem file to a ppk file. After successfully login to the EC2 instance from putty, it should like something like this:
+#### Create VPC in the AWS Management Console
+Head over to AWS VPC Services and then create a new VPC
 ![APT](./images/1.PNG)
 
 Install Apache Web Server in the EC2 instance:
