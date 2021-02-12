@@ -22,7 +22,7 @@ Create VPC in the AWS Management Console:
 
 ![APT](./images/1.PNG)
 
-Create new subnets, I will create two subnets where I will make one public subnet and one private subnet:
+Create new subnets, I will create two subnets where I will make one public subnet and one private subnet. Make sure the CIDR ranges don't clash between the subnets:
 
 ![APT](./images/2.PNG)
 
@@ -30,9 +30,17 @@ Create new subnets, I will create two subnets where I will make one public subne
 
 ![APT](./images/4.PNG)
 
-Print the instance id as the index.html page for the Apache web server
+Now we need to create an Internet Gateway:
 
+![APT](./images/5.PNG)
 
+After creating an Internet Gateway, we need to attach this to our Custom VPC to give our VPC internet access:
+
+![APT](./images/6.PNG)
+
+After successfully attaching this Internet Gateway to our custom VPC, the Internet Gateway State should specify as "Attached":
+
+![APT](./images/7.PNG)
 
 Start the Apache Web Server
 
