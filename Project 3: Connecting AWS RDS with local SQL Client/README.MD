@@ -68,7 +68,7 @@ The connection should also appear in the MySQL Workbench dashboard from now onwa
 
 ![APT](./images/12.PNG)
 
-Double click the connection, whatever query is written here will be refected in the AWS RDS portal:
+Double click the connection, whatever query is written here will be reflected in the AWS RDS portal:
 
 ![APT](./images/13.PNG)
 
