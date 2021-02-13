@@ -6,10 +6,10 @@
 </p>
 
 
-> AWS, VPC, Custom VPC, Public Subnet, Private Subnet
+> AWS, RDS, MySQL, MySQL Workbench
 <!-- ABOUT THE PROJECT -->
 
-# Make an EC2 Instance a webserver and Bootstrapping
+# Connecting AWS RDS with local SQL Client
 
 ## Project Description
 
