@@ -71,6 +71,11 @@ The connection should also appear in the MySQL Workbench dashboard from now onwa
 Doube click the connection, whatever query is written here will be refected in the AWS RDS portal:
 
 ![APT](./images/13.PNG)
+
+
+### Delete the RDS Instance
+Don't forget to delete all the RDS Instance as one can be billed after the free tier quota is over.
+
 <!-- CONTACT -->
 
 ## Contact
