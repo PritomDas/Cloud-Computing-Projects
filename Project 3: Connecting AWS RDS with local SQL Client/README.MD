@@ -16,8 +16,10 @@ This is a very simple project where we will work with AWS RDS. We will create a 
 
 ## Follow Along:
 
-### Part 1
-Create any Free Tier eligible EC2 instance. Use "Putty" and "PuttyGen" to convert the key-pair pem file to a ppk file. After successfully login to the EC2 instance from putty, it should like something like this:
+### Part 1: Create a MySQL RDS Instance
+
+Head over to the AWS Management Console and seach "RDS" in services. Then locate "create database" :
+
 ![APT](./images/1.PNG)
 
 Install Apache Web Server in the EC2 instance:
