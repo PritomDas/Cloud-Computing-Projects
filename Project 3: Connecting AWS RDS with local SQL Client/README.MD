@@ -1,4 +1,12 @@
+<!-- PROJECT LOGO -->
+<br />
 
+<p align="center">
+  <img src="./images/RDS.PNG" alt="Logo" width="700" height="700">
+</p>
+
+
+> AWS, VPC, Custom VPC, Public Subnet, Private Subnet
 <!-- ABOUT THE PROJECT -->
 
 # Make an EC2 Instance a webserver and Bootstrapping
