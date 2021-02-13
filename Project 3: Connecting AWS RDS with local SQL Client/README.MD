@@ -22,19 +22,19 @@ Head over to the AWS Management Console and seach "RDS" in services. Then locate
 
 ![APT](./images/1.PNG)
 
-Install Apache Web Server in the EC2 instance:
+Choose "Standard Create" in the database creation method and in engine options let's select "MySQL" :
 
 ![APT](./images/2.PNG)
 
-Print the instance id as the index.html page for the Apache web server
+Since we are creating this project for practice, select "Free Tier" in templates:
 
 ![APT](./images/3.PNG)
 
-Start the Apache Web Server
+Give desired credentials to create your own RDS instance:
 
 ![APT](./images/4.PNG)
 
-Copy the Public IPv4 address and view it in browser
+Pay close attention to "Connectivity". Let's choose "Public Access" as "Yes". We will also create a new security group instead of the default security group.
 
 ![APT](./images/5.PNG)
 
