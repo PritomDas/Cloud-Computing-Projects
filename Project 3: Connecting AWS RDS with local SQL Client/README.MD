@@ -38,20 +38,39 @@ Pay close attention to "Connectivity". Let's choose "Public Access" as "Yes". We
 
 ![APT](./images/5.PNG)
 
-The Final Output for Part 1:
+Rest everything stay as deafault and then create the database:
 
 ![APT](./images/6.PNG)
 
-
-### Part 2: Bootstrap
-
-Create another free tier eligible EC2 instance and in the "User Data" write like the following:
+After successful creation the database should be avaialble in the databases dashboard :
 
 ![APT](./images/7.PNG)
 
-The Final Output for Part 2:
+### Part 2: Download a Local SQL Client
+
+We will download the MySQL Workbench in our local system if it is not installed already. [Click Here](https://dev.mysql.com/downloads/mysql/) to locate the installer. After successful installation, it should be available in your local system. Add a new connection by pressing the  "+" button :
 
 ![APT](./images/8.PNG)
+
+Head over to the AWS Management Console again and "View Credential Detail" of the RDS Instance:
+
+![APT](./images/9.PNG)
+
+Enter the following detials as shown on the following pic which I have tried to map from the AWS RDS Credential Detail to the MySQL Workbench Connection :
+
+![APT](./images/10.PNG)
+
+Test the connection, if it is successful then it should look something like this:
+
+![APT](./images/11.PNG)
+
+The connection should also appear in the MySQL Workbench dashboard from now onwards:
+
+![APT](./images/12.PNG)
+
+Doube click the connection, whatever query is written here will be refected in the AWS RDS portal:
+
+![APT](./images/13.PNG)
 <!-- CONTACT -->
 
 ## Contact
