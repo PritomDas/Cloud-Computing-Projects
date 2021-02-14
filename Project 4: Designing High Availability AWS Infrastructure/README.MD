@@ -83,8 +83,47 @@ After successfully creating the load balancer:
 
 
 
-### Delete the RDS Instance
-Don't forget to delete all the RDS Instance as one can be billed after the free tier quota is over.
+### Part 3: Creating Launch Configuration and Auto Scaling Group
+Select " Create Launch Configuration" :
+
+![APT](./images/17.PNG)
+
+This is an important stage, we will  open another rule in the security group in our launch configuration and this new rule type should be of HTTP and the source should be security group ID of the the one that we created for our Application Load Balancer:
+
+
+![APT](./images/18.PNG)
+
+
+Now we will create the auto scaling group and we will select the launch configuration that we have created earlier :
+
+![APT](./images/19.PNG)
+
+Configure the settings for the Auto Scaling Group like this below :
+
+![APT](./images/20.PNG)
+
+Don't forget to attach our existing Application Load Balancer in this Auto Scaling Group:
+
+![APT](./images/21.PNG)
+
+
+Since the design requires two EC2 Instances, we will custoize the group size based on that:
+
+![APT](./images/22.PNG)
+
+After successful creation of the Auto Scaling Group, it should like this as the picture given below:
+
+![APT](./images/23.PNG)
+
+### Part 4: Accessing our High Availability Infrastrcuture Design :
+
+Let's see if everything is working properly. Goto the created Load Balancer and copy the DNS Name. We will check this DNS name in a separate browser window:
+
+![APT](./images/24.PNG)
+
+It should look like this in the browser:
+
+![APT](./images/25.PNG)
 
 <!-- CONTACT -->
 
