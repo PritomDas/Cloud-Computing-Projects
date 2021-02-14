@@ -6,25 +6,25 @@
 </p>
 
 
-> AWS, RDS, MySQL, MySQL Workbench
+> AWS, ELB, ASG, Launch Configuration
 <!-- ABOUT THE PROJECT -->
 
-# Connecting AWS RDS with local SQL Client
+# Designing High Availability AWS Infrastructure
 
 ## Project Description
-This is a very simple project where we will work with AWS RDS. We will create a free tier eligible MySQL RDS Database Instance. We will then install a local SQL client in our local environment. We will connect the the local SQL client with the AWS RDS Database instance that we have just created. After successful creation, we will delete all the created resources.
+This is a medium difficulty level project. Based on the reference architecture diagram, we will design high available system. We will create AMI for our desired EC2 Instances which will be bootstrapped for starting an Apache Webserver. We will create load balancers, launch configurations and auto scaling groups. We will run 2 EC2 instances in different public subnets and it gets auto provisioned when old EC2 Instances are down.
 
 ## Follow Along:
 
-### Part 1: Create a MySQL RDS Instance
+### Part 1: Create AMI from an EC2 Instance
 
-Head over to the AWS Management Console and seach "RDS" in services. Then locate "create database" :
-
-![APT](./images/1.PNG)
-
-Choose "Standard Create" in the database creation method and in engine options let's select "MySQL" :
+Head over to EC2 in services from AWS Management Console. Then "Launch Instance" :
 
 ![APT](./images/2.PNG)
+
+We will create free tier eligible instance :
+
+![APT](./images/3.PNG)
 
 Since we are creating this project for practice, select "Free Tier" in templates:
 
