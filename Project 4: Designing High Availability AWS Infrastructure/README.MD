@@ -26,51 +26,61 @@ We will create free tier eligible instance :
 
 ![APT](./images/3.PNG)
 
-Since we are creating this project for practice, select "Free Tier" in templates:
-
-![APT](./images/3.PNG)
-
-Give desired credentials to create your own RDS instance:
+Keep everything default, we will provide the Bootstrap Script in the "User Data" from the "Advanced Settings" :
 
 ![APT](./images/4.PNG)
 
-Pay close attention to "Connectivity". Let's choose "Public Access" as "Yes". We will also create a new security group instead of the default security group.
+Here is the Bootstrap Script for better view:
 
 ![APT](./images/5.PNG)
 
-Rest everything stay as deafault and then create the database:
+In the security group we will open another rule for "HTTP" connection:
 
 ![APT](./images/6.PNG)
 
-After successful creation the database should be avaialble in the databases dashboard :
+Now let's check if our webserver is serving the desired content properly or not. Grab the Public IPv4 address:
 
 ![APT](./images/7.PNG)
 
-### Part 2: Download a Local SQL Client
-
-We will download the MySQL Workbench in our local system if it is not installed already. [Click Here](https://dev.mysql.com/downloads/mysql/) to locate the installer. After successful installation, it should be available in your local system. Add a new connection by pressing the  "+" button :
+If the webserver is working correctly, then it should view this in a new browser :
 
 ![APT](./images/8.PNG)
 
-Head over to the AWS Management Console again and "View Credential Detail" of the RDS Instance:
+Now, we will create an AMI from this EC2 instance that we have just deployed. Follow the picture given below to create an image:
 
 ![APT](./images/9.PNG)
 
-Enter the following detials as shown on the following pic which I have tried to map from the AWS RDS Credential Detail to the MySQL Workbench Connection :
+Keep veryhting default and give a name to this image:
 
 ![APT](./images/10.PNG)
 
-Test the connection, if it is successful then it should look something like this:
+Now go to "Images" section and click "AMIs". Our new image should show "available" in status:
 
 ![APT](./images/11.PNG)
 
-The connection should also appear in the MySQL Workbench dashboard from now onwards:
+Now we can terminate the EC2 instance that we have created, the main purpose was to create a custom AMI which we have completed:
 
 ![APT](./images/12.PNG)
 
-Double click the connection, whatever query is written here will be reflected in the AWS RDS portal:
+
+### Part 2: Creating Application Load Balancer
+
+Go to Load Balancer, create a new load balancer and choose Application Load Balancer :
 
 ![APT](./images/13.PNG)
+
+Give a name to the Load Balancer and choose two availability zones. Make sure these availability zones are part of public subnet and not private subnet :
+
+![APT](./images/14.PNG)
+
+We will create a new security group and keep the default rule :
+
+![APT](./images/15.PNG)
+
+After successfully creating the load balancer:
+
+![APT](./images/16.PNG)
+
 
 
 ### Delete the RDS Instance
