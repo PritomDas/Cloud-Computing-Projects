@@ -2,7 +2,7 @@
 <br />
 
 <p align="center">
-  <img src="./images/RDS.png" alt="Logo" width="600" height="600">
+  <img src="./images/1.PNG" alt="Logo" width="600" height="600">
 </p>
 
 
