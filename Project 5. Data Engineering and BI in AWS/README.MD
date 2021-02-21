@@ -6,7 +6,7 @@
 </p>
 
 
-> AWS, RDS, MySQL, MySQL Workbench
+> AWS, RDS, MySQL, DBeaver, AWS Data Pipeline, AWS S3, AWS Quicksight
 <!-- ABOUT THE PROJECT -->
 
 # Connecting AWS RDS with local SQL Client
