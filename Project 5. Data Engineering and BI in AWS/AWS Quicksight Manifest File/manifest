@@ -1,0 +1,12 @@
+{
+	"fileLocations": [
+			{
+				"URIPrefixes": [
+					"https://pritom-mysql-dwh.s3.amazonaws.com/orders.csv"
+				]
+			}
+    ],
+    "globalUploadSettings": {
+			"format": "CSV"
+	}
+}
