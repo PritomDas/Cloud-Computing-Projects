@@ -123,8 +123,18 @@ We will need two more details to proceed further. We need "S3 Object URL" and a 
 
 For the manifest file, I have written a sample script for my configurations. Download the script file and change the details inside the script based on your configurations. The sample "manifest file" can be found on this link [Click Me](https://github.com/PritomDas/Cloud-Computing-Projects/blob/main/Project%205.%20Data%20Engineering%20and%20BI%20in%20AWS/AWS%20Quicksight%20Manifest%20File/manifest)
 
-### Delete the RDS Instance
-Don't forget to delete all the RDS Instance as one can be billed after the free tier quota is over.
+After getting both these details, we will proceed like the following:
+
+![APT](./images/44.PNG)
+
+We will import the dataset and visualize:
+
+![APT](./images/45.PNG)
+
+
+An AWS user can select the data fields to be analyzed and then either drag it onto the visual canvas or allow QuickSight to determine the appropriate visualization based on the selection using its AutoGraph feature. A user can create a dashboard, which includes visualizations, tables and other data displays. We have created a sample dashboard that shows a donut chart about sales in various states:
+
+![APT](./images/46.PNG)
 
 <!-- CONTACT -->
 
