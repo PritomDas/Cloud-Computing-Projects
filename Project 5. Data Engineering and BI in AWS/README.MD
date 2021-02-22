@@ -113,7 +113,7 @@ Amazon QuickSight, a component of Amazon Web Services (AWS), is a cloud-based se
 
 ![APT](./images/41.PNG)
 
-Choose "S3" from the Dat Sources Type:
+Choose "S3" from the Data Sources Type:
 
 ![APT](./images/42.PNG)
 
