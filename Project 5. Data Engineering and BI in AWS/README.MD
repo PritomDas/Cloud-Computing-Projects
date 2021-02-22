@@ -12,7 +12,7 @@
 # Data Engineering and Business Intelligence in AWS
 
 ## Project Description
-This is full end project where we try to simulate real cloud migration scenario. We will migrate our transactional data from On-Premise to AWS using AWS RDS MySQL. We also need to get insights from our data to make business decisions. We will use AWS Data Pipeline to convert the OLTP data to OLAP data for analytical purposes. The AWS Data Pipeline will fetch data from our RDS and convert it to our desired schema and push it to AWS S3. Here we will use AWS S3 as Data Lake and the AWS Data Pipleine will run automatically in certain intervals to push incremental updates in the S3. We will integrate AWs Quicksight for our Business Intelligence needs which will fetch datasets from our S3 and produce dashboards to get business insights, reports and KPIs.
+This is full end project where we try to simulate real cloud migration scenario. We will migrate our transactional data from On-Premise to AWS using AWS RDS MySQL. We also need to get insights from our data to make business decisions. We will use AWS Data Pipeline to convert the OLTP data to OLAP data for analytical purposes. The AWS Data Pipeline will fetch data from our RDS and convert it to our desired schema and push it to AWS S3. Here we will use AWS S3 as Data Lake and the AWS Data Pipeline will run automatically in certain intervals to push incremental updates in the S3. We will integrate AWs Quicksight for our Business Intelligence needs which will fetch datasets from our S3 and produce dashboards to get business insights, reports and KPIs.
 
 ## Follow Along:
 
