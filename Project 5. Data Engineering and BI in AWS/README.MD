@@ -58,7 +58,7 @@ Now come back to our DBeaver application, enter the endpoint and the RDS Databas
 
 ![APT](./images/13.PNG)
 
-I have provided the SQL Script for the use [Click Me](https://github.com/PritomDas/Cloud-Computing-Projects/blob/main/Project%205.%20Data%20Engineering%20and%20BI%20in%20AWS/SQL%20Script%20for%20MySQL%20Database/full_db_dump.rar)
+I have provided the SQL Script for creating the necessary database, tables and populating the tables. The Script can be found on this link [Click Me](https://github.com/PritomDas/Cloud-Computing-Projects/blob/main/Project%205.%20Data%20Engineering%20and%20BI%20in%20AWS/SQL%20Script%20for%20MySQL%20Database/full_db_dump.rar)
 
 Pay close attention to "Connectivity". Let's choose "Public Access" as "Yes". We will also create a new security group instead of the default security group.
 
