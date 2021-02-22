@@ -60,43 +60,21 @@ Now come back to our DBeaver application, enter the endpoint and the RDS Databas
 
 I have provided the SQL Script for creating the necessary database, tables and populating the tables. The Script can be found on this link [Click Me](https://github.com/PritomDas/Cloud-Computing-Projects/blob/main/Project%205.%20Data%20Engineering%20and%20BI%20in%20AWS/SQL%20Script%20for%20MySQL%20Database/full_db_dump.rar)
 
-Pay close attention to "Connectivity". Let's choose "Public Access" as "Yes". We will also create a new security group instead of the default security group.
+If the script was run successfully then we should get a database along with the following tables :
 
-![APT](./images/5.PNG)
+![APT](./images/15.PNG)
 
-Rest everything stay as deafault and then create the database:
+The schema of our database is like the following:
 
-![APT](./images/6.PNG)
+![APT](./images/16.PNG)
 
-After successful creation the database should be avaialble in the databases dashboard :
 
-![APT](./images/7.PNG)
+
+
 
 ### Part 2: Download a Local SQL Client
 
-We will download the MySQL Workbench in our local system if it is not installed already. [Click Here](https://dev.mysql.com/downloads/mysql/) to locate the installer. After successful installation, it should be available in your local system. Add a new connection by pressing the  "+" button :
 
-![APT](./images/8.PNG)
-
-Head over to the AWS Management Console again and "View Credential Detail" of the RDS Instance:
-
-![APT](./images/9.PNG)
-
-Enter the following detials as shown on the following pic which I have tried to map from the AWS RDS Credential Detail to the MySQL Workbench Connection :
-
-![APT](./images/10.PNG)
-
-Test the connection, if it is successful then it should look something like this:
-
-![APT](./images/11.PNG)
-
-The connection should also appear in the MySQL Workbench dashboard from now onwards:
-
-![APT](./images/12.PNG)
-
-Double click the connection, whatever query is written here will be reflected in the AWS RDS portal:
-
-![APT](./images/13.PNG)
 
 
 ### Delete the RDS Instance
