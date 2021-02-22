@@ -136,6 +136,12 @@ An AWS user can select the data fields to be analyzed and then either drag it on
 
 ![APT](./images/46.PNG)
 
+### Part 4: Future Scope
+
+This project can be enhanced further by integrating AWS Redshift,AWS Glue and AWS Lambda services. In this project we import in one shot the complete historical data from On-Premise Database to AWS. Whenever new data is oaded in our S3 bucket we can trigger Lambda and use AWS Glue to to load the data to AWS Redshift. The AWS Quicsight can be redirected to Redshift and we can create reports and dashboards.
+
+![APT](./images/future.png)
+
 <!-- CONTACT -->
 
 ## Contact
