@@ -16,21 +16,21 @@ This is full end project where we try to simulate real cloud migration scenario.
 
 ## Follow Along:
 
-### Part 1: Create a MySQL RDS Instance
+### Part 1: AWS RDS and DBeaver
 
-Head over to the AWS Management Console and seach "RDS" in services. Then locate "create database" :
+Head over to the AWS Management Console and seach "RDS" in services. Choose "Create Database" and from all the options of various SQL Engines, we will opt for MySQL. Make sure to choose "Free Tier" and proceed by keeping everything default :
 
 ![APT](./images/1.PNG)
 
-Choose "Standard Create" in the database creation method and in engine options let's select "MySQL" :
+In "Connectivity" have "Public Access":
 
 ![APT](./images/2.PNG)
 
-Since we are creating this project for practice, select "Free Tier" in templates:
+After successfully creating the database:
 
 ![APT](./images/3.PNG)
 
-Give desired credentials to create your own RDS instance:
+Install a tool called DBeaver in our local machine. DBeaver is a SQL client software application and a database administration tool. For relational databases it uses the JDBC application programming interface to interact with databases via a JDBC driver. Assuming that we have completed the installation process, we will create a new database connection:
 
 ![APT](./images/4.PNG)
 
