@@ -68,13 +68,16 @@ The schema of our database is like the following:
 
 ![APT](./images/16.PNG)
 
+### Part 2: AWS S3 and AWS Data Pipeline
+
+Go to AWS Management Console and search for S3 in services. We will create a bucket which will hold the transformed data from AWS Data Pipeline. The data stored in this bucket will be used by our AWS Quicksight to create reports and dashboards.
+
 ![APT](./images/32.PNG)
 
 After successfully creating a S3 Bucket:
 
 ![APT](./images/33.PNG)
 
-### Part 2: AWS S3 and AWS Data Pipeline
 
 Now, let's move over to AWS Data Pipeline and create a Pipeline. The Pipeline will fetch data from our RDS MySQL Instance and transform it based on our provided script and after completing the transformation will load it to the S3 Bucket. The whole process will run in automated manner, which is pretty cool.
 
@@ -104,14 +107,21 @@ Run the Data Pipeline, the Data Pipeline automatically fires up an EC2 Instance 
 
 ![APT](./images/40.PNG)
 
+### Part 3: AWS Quicksight 
 
+Amazon QuickSight, a component of Amazon Web Services (AWS), is a cloud-based serverless business intelligence platform that allows users to create visualizations and dashboards. Amazon powers the QuickSight SPICE, a fast, parallel, in-memory calculation engine. We will integrate AWS Quicksight with our AWS S3 Bucket and produce reports and dashboard. Go to AWS Quicksight and then select "New Dataset":
 
-### Part 2: AWS S3 and AWS Data Pipeline
+![APT](./images/41.PNG)
 
-Go to AWS Management Console and search for S3 in services. We will create a bucket which will hold the transformed data from AWS Data Pipeline. The data stored in this bucket will be used by our AWS Quicksight to create reports and dashboards.
+Choose "S3" from the Dat Sources Type:
 
+![APT](./images/42.PNG)
 
+We will need two more details to proceed further. We need "S3 Object URL" and a manifest file in JSON format. Go back to S3 and choose the required bucket. Fetch the "Object URL" from that Bucket:
 
+![APT](./images/43.PNG)
+
+For the manifest file, I have written a sample script for my configurations. Download the script file and change the details inside the script based on your configurations. The sample "manifest file" can be found on this link [Click Me](https://github.com/PritomDas/Cloud-Computing-Projects/blob/main/Project%205.%20Data%20Engineering%20and%20BI%20in%20AWS/AWS%20Quicksight%20Manifest%20File/manifest)
 
 ### Delete the RDS Instance
 Don't forget to delete all the RDS Instance as one can be billed after the free tier quota is over.
