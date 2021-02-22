@@ -9,10 +9,10 @@
 > AWS, RDS, MySQL, DBeaver, AWS Data Pipeline, AWS S3, AWS Quicksight
 <!-- ABOUT THE PROJECT -->
 
-# Connecting AWS RDS with local SQL Client
+# Data Engineering and Business Intelligence in AWS
 
 ## Project Description
-This is a very simple project where we will work with AWS RDS. We will create a free tier eligible MySQL RDS Database Instance. We will then install a local SQL client in our local environment. We will connect the the local SQL client with the AWS RDS Database instance that we have just created. After successful creation, we will delete all the created resources.
+This is full end project where we try to simulate real cloud migration scenario. We will migrate our transactional data from On-Premise to AWS using AWS RDS MySQL. We also need to get insights from our data to make business decisions. We will use AWS Data Pipeline to convert the OLTP data to OLAP data for analytical purposes. The AWS Data Pipeline will fetch data from our RDS and convert it to our desired schema and push it to AWS S3. Here we will use AWS S3 as Data Lake and the AWS Data Pipleine will run automatically in certain intervals to push incremental updates in the S3. We will integrate AWs Quicksight for our Business Intelligence needs which will fetch datasets from our S3 and produce dashboards to get business insights, reports and KPIs.
 
 ## Follow Along:
 
