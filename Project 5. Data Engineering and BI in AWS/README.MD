@@ -34,7 +34,7 @@ Install a tool called DBeaver in our local machine. DBeaver is a SQL client soft
 
 ![APT](./images/4.PNG)
 
-![APT](./images/5.PNG)
+![APT](./images/5.png)
 
 ![APT](./images/6.PNG)
 
