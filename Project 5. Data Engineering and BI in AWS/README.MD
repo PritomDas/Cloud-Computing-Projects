@@ -30,9 +30,35 @@ After successfully creating the database:
 
 ![APT](./images/3.PNG)
 
-Install a tool called DBeaver in our local machine. DBeaver is a SQL client software application and a database administration tool. For relational databases it uses the JDBC application programming interface to interact with databases via a JDBC driver. Assuming that we have completed the installation process, we will create a new database connection:
+Install a tool called DBeaver in our local machine. DBeaver is a SQL client software application and a database administration tool. For relational databases it uses the JDBC application programming interface to interact with databases via a JDBC driver. Assuming that we have completed the installation process, we will create a new database connection to our AWS RDS MySQL Instance:
 
 ![APT](./images/4.PNG)
+
+![APT](./images/5.PNG)
+
+![APT](./images/6.PNG)
+
+We need to edit our security group in the VPC section that we used for the AWS RDS. We will add a new inbound rule which will allow our RDS Instance to be accessible remotely by our IP Address. Few Screenshots are attached to explain this procedure:
+
+![APT](./images/7.PNG)
+
+![APT](./images/8.PNG)
+
+![APT](./images/9.PNG)
+
+![APT](./images/10.PNG)
+
+Now we will go back to AWS RDS. Select the instance that have initially created and copy the "Endpoint" detail:
+
+![APT](./images/11.PNG)
+
+Now come back to our DBeaver application, enter the endpoint and the RDS Database Credentials that we have used while creating it initially. Test out the connection and if it is successful then proceed further:
+
+![APT](./images/12.PNG)
+
+![APT](./images/13.PNG)
+
+I have provided the SQL Script for the use (https://github.com/PritomDas/Cloud-Computing-Projects/blob/main/Project%205.%20Data%20Engineering%20and%20BI%20in%20AWS/SQL%20Script%20for%20MySQL%20Database/full_db_dump.rar)
 
 Pay close attention to "Connectivity". Let's choose "Public Access" as "Yes". We will also create a new security group instead of the default security group.
 
