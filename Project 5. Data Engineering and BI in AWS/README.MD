@@ -68,11 +68,47 @@ The schema of our database is like the following:
 
 ![APT](./images/16.PNG)
 
+![APT](./images/32.PNG)
+
+After successfully creating a S3 Bucket:
+
+![APT](./images/33.PNG)
+
+### Part 2: AWS S3 and AWS Data Pipeline
+
+Now, let's move over to AWS Data Pipeline and create a Pipeline. The Pipeline will fetch data from our RDS MySQL Instance and transform it based on our provided script and after completing the transformation will load it to the S3 Bucket. The whole process will run in automated manner, which is pretty cool.
+
+![APT](./images/34.PNG)
+
+Enter the following details while creating the Data Pipeline:
+
+![APT](./images/35.PNG)
+
+After successful creation we will get a visual UI as a flow chart:
+
+![APT](./images/36.PNG)
+
+We will add the following custom query, where we join two tables and then discard unimportant columns from the two tables:
+
+![APT](./images/37.PNG)
+
+Give the database name that we have created in the DBeaver:
+
+![APT](./images/38.PNG)
+
+Run the Data Pipeline, the Data Pipeline automatically fires up an EC2 Instance and runs our query for transformation. The transformed data will get loaded in the S3 bucket that we have created:
+
+
+![APT](./images/39.PNG)
+
+
+![APT](./images/40.PNG)
 
 
 
+### Part 2: AWS S3 and AWS Data Pipeline
 
-### Part 2: Download a Local SQL Client
+Go to AWS Management Console and search for S3 in services. We will create a bucket which will hold the transformed data from AWS Data Pipeline. The data stored in this bucket will be used by our AWS Quicksight to create reports and dashboards.
 
 
 
