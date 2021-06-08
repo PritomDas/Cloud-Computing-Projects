@@ -18,7 +18,7 @@ This is full end project where we try to simulate real cloud migration scenario.
 
 ### Part 1: AWS RDS and DBeaver
 
-Head over to the AWS Management Console and seach "RDS" in services. Choose "Create Database" and from all the options of various SQL Engines, we will opt for MySQL. Make sure to choose "Free Tier" and proceed by keeping everything default :
+Head over to the AWS Management Console and search "RDS" in services. Choose "Create Database" and from all the options of various SQL Engines, we will opt for MySQL. Make sure to choose "Free Tier" and proceed by keeping everything default :
 
 ![APT](./images/1.PNG)
 
