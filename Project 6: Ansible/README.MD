@@ -79,6 +79,8 @@ After successful installation of Ansible:
 * It makes uses of SSH(for Linux) and powershell(for windows).
 * All the information about the target system is stored in the inventory file.
 * If we don't create any then by default an inventory file is created by ansible and can be found under /etc/ansible/hosts
+* Aliases in Ansible Inventory ![APT](./images/15.PNG)
+
 </b></details>
 
 
