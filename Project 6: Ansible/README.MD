@@ -28,6 +28,7 @@ After successful installation, it should look like this:
 
 We will now get a preconfigured and preinstalled virtual machine image. I am going to use a CentOS VM(64 bit version) for this project. Head over to this [link](https://www.osboxes.org/centos/) to download the required image and kudos to [OSBoxes](https://www.osboxes.org/)
 
+After using our dlownlaoded image in the virtualbox, it would look soething like this:
 ![APT](./images/3.PNG)
 
 Install a tool called DBeaver in our local machine. DBeaver is a SQL client software application and a database administration tool. For relational databases it uses the JDBC application programming interface to interact with databases via a JDBC driver. Assuming that we have completed the installation process, we will create a new database connection to our AWS RDS MySQL Instance:
