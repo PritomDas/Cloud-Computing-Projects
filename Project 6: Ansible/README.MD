@@ -6,13 +6,13 @@
 </p>
 
 
-> AWS, RDS, MySQL, DBeaver, AWS Data Pipeline, AWS S3, AWS Quicksight
+> Ansible, Infrastructure as a Code, IAAC, Linux, CentOS
 <!-- ABOUT THE PROJECT -->
 
-# Ansible Project
+# Ansible Project for Remote Orchestration 
 
 ## Project Description
-This 
+In this project we will try to work around with many linux based virtual machines, utilise ansible so that the Controller Virtual Machine can be utilised to perform remote orchestration of our target remote virtual machines.
 
 ## Follow Along:
 
