@@ -58,6 +58,12 @@ Now establish SSH connection between MobaXterm/Putty with the new VM clones:
 ![APT](./images/11.PNG)
 ![APT](./images/12.PNG)
 
+Similarly create another clone for Ansible-TargetMachine2.
+
+Now, lets move forward by installing Ansible in our Ansible-Controller-Machine by using "sudo yum install ansible". This can be done by loggin inside the vm and running through the terminal, I am going to do remote installation through MobaXterm.
+![APT](./images/13.PNG)
+
+
 
 
 
