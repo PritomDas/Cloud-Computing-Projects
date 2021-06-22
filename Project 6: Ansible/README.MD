@@ -9,7 +9,7 @@
 > AWS, RDS, MySQL, DBeaver, AWS Data Pipeline, AWS S3, AWS Quicksight
 <!-- ABOUT THE PROJECT -->
 
-# Data Engineering and Business Intelligence in AWS
+# Ansible Project
 
 ## Project Description
 This 
@@ -20,7 +20,9 @@ This
 
 Head over to the official website and download the version based on your desired operating system. [Click Me](https://www.virtualbox.org/wiki/Downloads)
 
-![APT](./images/1.PNG)
+After successful installation, it should look like this:
+
+![APT](./images/2.PNG)
 
 In "Connectivity" have "Public Access":
 
