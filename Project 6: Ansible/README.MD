@@ -34,44 +34,12 @@ After using our dlownlaoded image in the virtualbox, it would look something lik
 Go to VM setting and increase the CPU power and change the network settings from "NAT" to "Bridge Adapter" so that the VM can be connected to the internet. Turn on the VM and then for password, enter "osboxes.org". After successful login, go to Applications and open up a terminal. Let's try to find out the IP address assigned to our VM. This can be done by running "ipconfig":
 ![APT](./images/4.PNG)
 
-### Part 2: AWS S3 and AWS Data Pipeline
+After successful remote connection to our VM, it would look something like this, and I have decided not to mask my VM IP adress anymore:
+![APT](./images/5.PNG)
 
-Go to AWS Management Console and search for S3 in services. We will create a bucket which will hold the transformed data from AWS Data Pipeline. The data stored in this bucket will be used by our AWS Quicksight to create reports and dashboards.
+### Part 3: SSH Login to our VM (Remote Computing)
 
-![APT](./images/32.PNG)
-
-After successfully creating a S3 Bucket:
-
-![APT](./images/33.PNG)
-
-
-Now, let's move over to AWS Data Pipeline and create a Pipeline. The Pipeline will fetch data from our RDS MySQL Instance and transform it based on our provided script and after completing the transformation will load it to the S3 Bucket. The whole process will run in automated manner, which is pretty cool.
-
-![APT](./images/34.PNG)
-
-Enter the following details while creating the Data Pipeline:
-
-![APT](./images/35.PNG)
-
-After successful creation we will get a visual UI as a flow chart:
-
-![APT](./images/36.PNG)
-
-We will add the following custom query, where we join two tables and then discard unimportant columns from the two tables:
-
-![APT](./images/37.PNG)
-
-Give the database name that we have created in the DBeaver:
-
-![APT](./images/38.PNG)
-
-Run the Data Pipeline, the Data Pipeline automatically fires up an EC2 Instance and runs our query for transformation. The transformed data will get loaded in the S3 bucket that we have created:
-
-
-![APT](./images/39.PNG)
-
-
-![APT](./images/40.PNG)
+We can either use "Putty" or "MobaXterm". I will use the later one. Create a new ssh session and specify the IP adress of the vm with the user as the naem found in VM account login.
 
 ### Part 3: AWS Quicksight 
 
