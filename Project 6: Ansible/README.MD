@@ -47,6 +47,11 @@ Go to virtualbox, select the VM in poweroff state and chose the option Clone. We
 ![APT](./images/6.PNG)
 ![APT](./images/7.PNG)
 
+Similarly we will follow the same procedure for creating another clone for Ansible Target Machine.
+![APT](./images/8.PNG)
+![APT](./images/9.PNG)
+
+
 
 <!-- CONTACT -->
 
