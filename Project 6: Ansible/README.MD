@@ -34,47 +34,17 @@ After using our dlownlaoded image in the virtualbox, it would look something lik
 Go to VM setting and increase the CPU power and change the network settings from "NAT" to "Bridge Adapter" so that the VM can be connected to the internet. Turn on the VM and then for password, enter "osboxes.org". After successful login, go to Applications and open up a terminal. Let's try to find out the IP address assigned to our VM. This can be done by running "ipconfig":
 ![APT](./images/4.PNG)
 
-After successful remote connection to our VM, it would look something like this, and I have decided not to mask my VM IP adress anymore:
-![APT](./images/5.PNG)
 
 ### Part 3: SSH Login to our VM (Remote Computing)
 
-We can either use "Putty" or "MobaXterm". I will use the later one. Create a new ssh session and specify the IP adress of the vm with the user as the naem found in VM account login.
+We can either use "Putty" or "MobaXterm". I will use the later one. Create a new ssh session and specify the IP adress of the vm with the user as the naem found in VM account login. After that we can shut down the VM from the virtualBox or do it remotely from the connected ssh remote connection.
 
-### Part 3: AWS Quicksight 
+After successful remote connection to our VM, it would look something like this, and I have decided not to mask my VM IP adress anymore:
+![APT](./images/5.PNG)
 
-Amazon QuickSight, a component of Amazon Web Services (AWS), is a cloud-based serverless business intelligence platform that allows users to create visualizations and dashboards. Amazon powers the QuickSight SPICE, a fast, parallel, in-memory calculation engine. We will integrate AWS Quicksight with our AWS S3 Bucket and produce reports and dashboard. Go to AWS Quicksight and then select "New Dataset":
-
-![APT](./images/41.PNG)
-
-Choose "S3" from the Data Sources Type:
-
-![APT](./images/42.PNG)
-
-We will need two more details to proceed further. We need "S3 Object URL" and a manifest file in JSON format. Go back to S3 and choose the required bucket. Fetch the "Object URL" from that Bucket:
-
-![APT](./images/43.PNG)
-
-For the manifest file, I have written a sample script for my configurations. Download the script file and change the details inside the script based on your configurations. The sample "manifest file" can be found on this link [Click Me](https://github.com/PritomDas/Cloud-Computing-Projects/blob/main/Project%205.%20Data%20Engineering%20and%20BI%20in%20AWS/AWS%20Quicksight%20Manifest%20File/manifest)
-
-After getting both these details, we will proceed like the following:
-
-![APT](./images/44.PNG)
-
-We will import the dataset and visualize:
-
-![APT](./images/45.PNG)
+### Part 4: Clone VMs and Install Ansible 
 
 
-An AWS user can select the data fields to be analyzed and then either drag it onto the visual canvas or allow QuickSight to determine the appropriate visualization based on the selection using its AutoGraph feature. A user can create a dashboard, which includes visualizations, tables and other data displays. We have created a sample dashboard that shows a donut chart about sales in various states:
-
-![APT](./images/46.PNG)
-
-### Part 4: Future Scope
-
-This project can be enhanced further by integrating AWS Redshift, AWS Glue and AWS Lambda services. In this project we import in one shot the complete historical data from On-Premise Database to AWS. Whenever new data is loaded in our S3 bucket we can trigger Lambda and use AWS Glue to load the data to AWS Redshift. The AWS Quicksight can be redirected to Redshift and we can create reports and dashboards.
-
-![APT](./images/future.png)
 
 <!-- CONTACT -->
 
