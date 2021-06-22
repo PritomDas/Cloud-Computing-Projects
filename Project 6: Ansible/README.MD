@@ -43,7 +43,8 @@ After successful remote connection to our VM, it would look something like this,
 ![APT](./images/5.PNG)
 
 ### Part 4: Clone VMs and Install Ansible 
-
+Go to virtualbox, select the VM in poweroff state and chose the option Clone. We will create a Master Ansible Control Machine out of this one. Make sure to reinitialize new IP address to created VMs.
+![APT](./images/6.PNG)
 
 
 <!-- CONTACT -->
