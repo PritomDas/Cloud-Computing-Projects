@@ -66,7 +66,10 @@ Now, lets move forward by installing Ansible in our Ansible-Controller-Machine b
 After successful installation of Ansible:
 ![APT](./images/14.PNG)
 
-### Part 5: 
+### Part 5: Ansible Inventory
+
+Testing connection between Ansible-Controller-Machine with the Ansible-Target-Machine1
+![APT](./images/16.PNG)
 
 
 <!-- Ansible Theory -->
