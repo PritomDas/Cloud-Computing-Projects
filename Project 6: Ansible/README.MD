@@ -74,6 +74,10 @@ Testing connection between Ansible-Controller-Machine with the Ansible-Target-Ma
 Now we will create an inventory file in our Ansible-Controller-Machine
 ![APT](./images/17.PNG)
 
+Let's try to ping from our controller machine and see if we can establish a ssh connection with our target machine using our ansible script
+![APT](./images/18.PNG)
+
+
 
 <!-- Ansible Theory -->
 ### FAQs about Ansible
