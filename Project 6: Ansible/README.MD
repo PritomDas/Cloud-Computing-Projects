@@ -51,6 +51,10 @@ Similarly we will follow the same procedure for creating another clone for Ansib
 ![APT](./images/8.PNG)
 ![APT](./images/9.PNG)
 
+Let's find the IP addresses of our new VM clones by heading over terminal and runing ifconfig:
+![APT](./images/10.PNG)
+
+
 
 
 <!-- CONTACT -->
