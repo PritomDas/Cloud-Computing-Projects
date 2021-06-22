@@ -78,7 +78,7 @@ After successful installation of Ansible:
 * This is the way ansible can perform orchesration of all the different target servers and is done in agentless manner.
 * It makes uses of SSH(for Linux) and powershell(for windows).
 * All the information about the target system is stored in the inventory file.
-* AIf we don't create any then by default an inventory file is created by ansible and can be found under 
+* If we don't create any then by default an inventory file is created by ansible and can be found under /etc/ansible/hosts
 </b></details>
 
 
