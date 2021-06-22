@@ -63,7 +63,8 @@ Similarly create another clone for Ansible-TargetMachine2.
 Now, lets move forward by installing Ansible in our Ansible-Controller-Machine by using "sudo yum install ansible". This can be done by loggin inside the vm and running through the terminal, I am going to do remote installation through MobaXterm. The following [Ansible Official Documentation](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-ansible-on-specific-operating-systems) has every details on how to install ansible to our required operating systems.
 ![APT](./images/13.PNG)
 
-
+After successful installation of Ansible:
+![APT](./images/14.PNG)
 
 
 
