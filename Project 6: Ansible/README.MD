@@ -31,43 +31,8 @@ We will now get a preconfigured and preinstalled virtual machine image. I am goi
 After using our dlownlaoded image in the virtualbox, it would look something like this:
 ![APT](./images/3.PNG)
 
-Install a tool called DBeaver in our local machine. DBeaver is a SQL client software application and a database administration tool. For relational databases it uses the JDBC application programming interface to interact with databases via a JDBC driver. Assuming that we have completed the installation process, we will create a new database connection to our AWS RDS MySQL Instance:
-
+Go to VM setting and increase the CPU power and change the network settings from "NAT" to "Bridge Adapter" so that the VM can be connected to the internet. Turn on the VM and then for password, enter "osboxes.org". After successful login, go to Applications and open up a terminal. Let's try to find out the IP address assigned to our VM. This can be done by running "ipconfig":
 ![APT](./images/4.PNG)
-
-![APT](./images/5.png)
-
-![APT](./images/6.PNG)
-
-We need to edit our security group in the VPC section that we used for the AWS RDS. We will add a new inbound rule which will allow our RDS Instance to be accessible remotely by our IP Address. Few Screenshots are attached to explain this procedure:
-
-![APT](./images/7.PNG)
-
-![APT](./images/8.PNG)
-
-![APT](./images/9.PNG)
-
-![APT](./images/10.PNG)
-
-Now we will go back to AWS RDS. Select the instance that have initially created and copy the "Endpoint" detail:
-
-![APT](./images/11.PNG)
-
-Now come back to our DBeaver application, enter the endpoint and the RDS Database Credentials that we have used while creating it initially. Test out the connection and if it is successful then proceed further:
-
-![APT](./images/12.PNG)
-
-![APT](./images/13.PNG)
-
-I have provided the SQL Script for creating the necessary database, tables and populating the tables. The Script can be found on this link [Click Me](https://github.com/PritomDas/Cloud-Computing-Projects/blob/main/Project%205.%20Data%20Engineering%20and%20BI%20in%20AWS/SQL%20Script%20for%20MySQL%20Database/full_db_dump.rar)
-
-If the script was run successfully then we should get a database along with the following tables :
-
-![APT](./images/15.PNG)
-
-The schema of our database is like the following:
-
-![APT](./images/16.PNG)
 
 ### Part 2: AWS S3 and AWS Data Pipeline
 
