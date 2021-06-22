@@ -24,11 +24,9 @@ After successful installation, it should look like this:
 
 ![APT](./images/2.PNG)
 
-In "Connectivity" have "Public Access":
+### Part 2: Get the CentOS VM
 
-![APT](./images/2.PNG)
-
-After successfully creating the database:
+We will now get a preconfigured and preinstalled virtual machine image. I am going to use a CentOS VM for this project. Head over to this [link](https://www.osboxes.org/centos/) to download the required image and kudos to  [OSBoxes](https://www.osboxes.org/)
 
 ![APT](./images/3.PNG)
 
