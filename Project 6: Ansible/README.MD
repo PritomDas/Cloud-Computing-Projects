@@ -12,13 +12,13 @@
 # Data Engineering and Business Intelligence in AWS
 
 ## Project Description
-This is full end project where we try to simulate real cloud migration scenario. We will migrate our transactional data from On-Premise to AWS using AWS RDS MySQL. We also need to get insights from our data to make business decisions. We will use AWS Data Pipeline to convert the OLTP data to OLAP data for analytical purposes. The AWS Data Pipeline will fetch data from our RDS and convert it to our desired schema and push it to AWS S3. Here we will use AWS S3 as Data Lake and the AWS Data Pipeline will run automatically in certain intervals to push incremental updates in the S3. We will integrate AWS Quicksight for our Business Intelligence needs which will fetch datasets from our S3 and produce dashboards to get business insights, reports and KPIs.
+This 
 
 ## Follow Along:
 
-### Part 1: AWS RDS and DBeaver
+### Part 1: Install Virtual Box
 
-Head over to the AWS Management Console and search "RDS" in services. Choose "Create Database" and from all the options of various SQL Engines, we will opt for MySQL. Make sure to choose "Free Tier" and proceed by keeping everything default :
+Head over to the official website and download the version based on your desired operating system. [Click Me](https://www.virtualbox.org/wiki/Downloads)
 
 ![APT](./images/1.PNG)
 
