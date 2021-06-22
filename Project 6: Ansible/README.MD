@@ -70,6 +70,7 @@ After successful installation of Ansible:
 
 
 <!-- Ansible Theory -->
+### FAQs about Ansible
 
 <details>
 <summary>Ansible Inventory?</summary><br><b>
@@ -80,8 +81,6 @@ After successful installation of Ansible:
 * AIf we don't create any then by default an inventory file is created by ansible and can be found under 
 </b></details>
 
-### Ansible Inventory
-This is the way ansible can perform orchesration of all the different target servers and is done in agentless manner. It makes uses of SSH(for Linux) and powershell(for windows). All the information about the target system is stored in the inventory file. If we don't create any then by default an inventory file is created by ansible and can be found under 
 
 
 <!-- CONTACT -->
