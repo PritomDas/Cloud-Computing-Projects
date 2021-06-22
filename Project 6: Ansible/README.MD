@@ -26,7 +26,7 @@ After successful installation, it should look like this:
 
 ### Part 2: Get the CentOS VM
 
-We will now get a preconfigured and preinstalled virtual machine image. I am going to use a CentOS VM for this project. Head over to this [link](https://www.osboxes.org/centos/) to download the required image and kudos to  [OSBoxes](https://www.osboxes.org/)
+We will now get a preconfigured and preinstalled virtual machine image. I am going to use a CentOS VM(64 bit version) for this project. Head over to this [link](https://www.osboxes.org/centos/) to download the required image and kudos to [OSBoxes](https://www.osboxes.org/)
 
 ![APT](./images/3.PNG)
 
