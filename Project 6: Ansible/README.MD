@@ -71,6 +71,9 @@ After successful installation of Ansible:
 Testing connection between Ansible-Controller-Machine with the Ansible-Target-Machine1
 ![APT](./images/16.PNG)
 
+Now we will create an inventory file in our Ansible-Controller-Machine
+![APT](./images/17.PNG)
+
 
 <!-- Ansible Theory -->
 ### FAQs about Ansible
