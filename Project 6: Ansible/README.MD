@@ -140,7 +140,15 @@ The management node is the controlling node (managing node) which controls the e
 
 Ad hoc commands are commands which can be run individually to perform quick functions. These commands need not be performed later.For example, you have to reboot all your company servers. For this, you will run the Adhoc commands from ‘/usr/bin/ansible’. These ad-hoc commands are not used for configuration management and deployment, because these commands are of one time usage.
 
-  ansible-playbook is used for configuration management and deployment.
+ansible-playbook is used for configuration management and deployment.
+</b></details>
+
+<details>
+<summary>What are ansible modules?</summary><br><b>
+
+A module is a reusable, standalone script that Ansible runs on your behalf, either locally or remotely. Modules interact with your local machine, an API, or a remote system to perform specific tasks like changing a database password or spinning up a cloud instance. Each module can be used by the Ansible API, or by the ansible or ansible-playbook programs. A module provides a defined interface, accepts arguments, and returns information to Ansible by printing a JSON string to stdout before exiting.
+
+If you need functionality that is not available in any of the thousands of Ansible modules found in collections, you can easily write your own custom module. When you write a module for local use, you can choose any programming language and follow your own rules. 
 </b></details>
 
 <!-- CONTACT -->
