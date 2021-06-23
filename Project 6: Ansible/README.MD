@@ -104,6 +104,13 @@ Let's try to ping from our controller machine and see if we can establish a ssh 
 * Executing ansible playbook syntax: ansible-playbook playbookname.yml
 </b></details>
 
+<details>
+<summary>Example of Ansible Use Case?</summary><br><b>
+
+If you want to install the new version of WebLogic/WebSphere server on all of the machines present in your enterprise, it is not feasible for you to manually go and update each and every machine.
+
+You can install WebLogic/WebSphere in one go on all of your machines with Ansible playbooks and inventory written in the most simple way. All you have to do is list out the IP addresses of your nodes in the inventory and write a playbook to install WebLogic/WebSphere. Run the playbook from your control machine & it will be installed on all your nodes.
+</b></details>
 
 <!-- CONTACT -->
 
