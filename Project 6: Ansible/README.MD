@@ -131,7 +131,7 @@ The management node is the controlling node (managing node) which controls the e
 <details>
 <summary>What are the types of ansible machine for deployment?</summary><br><b>
 
-  * Control machine − Machine from where we can manage other machines. For managing remote machines we have to install Ansible on control machine.
+  * Control machine − Machine from where we can manage other machines. For managing remote machines we have to install Ansible on control machine. Unfortunatley, as of now, the OS for control machine needs to be Linux and not Windows!
   * Remote machine − Machines which are handled/controlled by control machine.
 </b></details>
 
