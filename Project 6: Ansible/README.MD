@@ -77,7 +77,15 @@ Now we will create an inventory file in our Ansible-Controller-Machine
 Let's try to ping from our controller machine and see if we can establish a ssh connection with our target machine using our ansible script
 ![APT](./images/18.PNG)
 
+### Part 6: Ansible Playbook
 
+Now let's work with Playbook which is the core part of Ansible. Check out the FAQ's at the end of this project section to find out more about Ansible Playbooks. Playbooks are written in YAML so now let's create one playbook for automating the ping test from our controller to the remote machines through a playbook.
+
+I am creating a playbook called " playbook-pingtest.yaml". The content of this script can be found on the given image:
+![APT](./images/20.PNG)
+
+We will now exceute our playbook using this synatx: ansible-playbook playbook-pingtest.yaml -i inventory.txt
+![APT](./images/21.PNG)
 
 <!-- Ansible Theory -->
 ### FAQs about Ansible
