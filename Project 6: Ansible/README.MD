@@ -100,6 +100,7 @@ Let's try to ping from our controller machine and see if we can establish a ssh 
 * Playbooks are one of the core features of Ansible and tell Ansible what to execute. They are like a to-do list for Ansible that contains a list of tasks.
 * Playbooks contain the steps which the user wants to execute on a particular machine.
 * Ansible Playbooks offer a repeatable, re-usable, simple configuration management and multi-machine deployment system, one that is well suited to deploying complex applications. If you need to execute a task with Ansible more than once, write a playbook and put it under source control. Then you can use the playbook to push out new configuration or confirm the configuration of remote systems. 
+* Each playbook looks like a dictionary of lists in YAML. For eg: ![APT](./images/19.PNG)
 
 </b></details>
 
