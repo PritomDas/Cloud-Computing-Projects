@@ -119,6 +119,14 @@ Ansible works by connecting to your nodes and pushing out small programs, called
 
 The management node is the controlling node (managing node) which controls the entire execution of the playbook. It’s the node from which you are running the installation. The inventory file provides the list of hosts where the Ansible modules needs to be run and the management node does a SSH connection and executes the small modules on the hosts machine and installs the product/software.
 </b></details>
+
+<details>
+<summary>What are the types of ansible machine for deployment?</summary><br><b>
+
+  * Control machine − Machine from where we can manage other machines.
+  * Remote machine − Machines which are handled/controlled by control machine.
+</b></details>
+
 <!-- CONTACT -->
 
 ## Contact
