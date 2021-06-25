@@ -200,7 +200,7 @@ COPY ./webapp.war /usr/local/tomcat/webapps
 
    ```
 
-
+![APT](./images/26.PNG)
 
 
 <!-- CONTACT -->
