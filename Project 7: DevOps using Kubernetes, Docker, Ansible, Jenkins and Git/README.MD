@@ -88,6 +88,8 @@ Check start and stop state of Jenkins
   service jenkins start
 
    ```
+![APT](./images/5.PNG)   
+   
 <!-- CONTACT -->
 
 ## Contact
