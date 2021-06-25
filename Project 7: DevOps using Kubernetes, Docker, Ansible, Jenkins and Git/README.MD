@@ -68,11 +68,16 @@ Once the EC2 is created, use any preferred remote computation tool of your choic
 Once successfully we get access to our EC2, make sure to change to root user since we would do couple of installations.
 ![APT](./images/3.PNG)
 
-Check is Java is installed in the EC2 instance, if not then install java using the yum install java command. Get the latest version from http://openjdk.java.net/install/
+Check if is Java is installed in the EC2 instance, if not then install java using the yum install java command. Get the latest version from http://openjdk.java.net/install/
    ```sh
    yum install java-1.8*
    #yum -y install java-1.8.0-openjdk-devel
    ```
+Make sure to set path to the Java in this EC2 Linux machine, attaching everything step by step would make this very long so I am going to assume that by now we all know how to do this.
+![APT](./images/4.PNG)
+
+
+
 
 <!-- CONTACT -->
 
