@@ -59,6 +59,10 @@ We will set all out various tools over the Cloud using AWS.
 
 ### Jenkins Installation in AWS EC2
 
+Head over to AWS Management Console and spin up any Linux based free tier EC2 instance. Keep everything default except make sure to open up 8080 port during security group configuration as Jenkins run on this port.
+
+![APT](./images/1.PNG)
+
 <!-- CONTACT -->
 
 ## Contact
