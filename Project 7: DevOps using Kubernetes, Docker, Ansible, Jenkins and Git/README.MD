@@ -6,10 +6,10 @@
 </p>
 
 
-> Ansible, Infrastructure as a Code, IAAC, Linux, CentOS
+> Kubernetes, Ansible, Git, Jenkins, Docker, CI/CD Pipelines, DevOps, DevSecOps, AWS
 <!-- ABOUT THE PROJECT -->
 
-# Ansible Project for Remote Orchestration 
+# DevOps CI/CD pipelines using Git, Jenkins, Ansible, Docker and Kubernetes on AWS
 
 ## Project Description
 In this project we will try to work around with many linux based virtual machines, utilise ansible so that the Controller Virtual Machine can be utilised to perform remote orchestration of our target remote virtual machines.
