@@ -77,7 +77,10 @@ Make sure to set path to the Java in this EC2 Linux machine, attaching everythin
 ![APT](./images/4.PNG)
 
 To setup Jenkins Repository in our EC2 Instance, use the following [Jenkins Official Documentation](https://pkg.jenkins.io/redhat-stable/)
-
+   ```sh
+  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+   ```
 
 <!-- CONTACT -->
 
