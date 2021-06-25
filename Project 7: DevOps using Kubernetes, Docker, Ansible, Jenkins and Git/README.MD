@@ -286,6 +286,14 @@ Validation test
    ```sh 
    ansible all -m ping
    ```
+After successful installation of anisble in our Ansible Server
+
+![APT](./images/30.PNG)
+
+
+
+
+
 
 <!-- CONTACT -->
 
