@@ -331,7 +331,7 @@ The CI/CD pipeline with ansible worked like a charm and it was successful
 
 # Kubernetes Integration with CI/CD Pipeline
 
-1. Create Ubuntu EC2 instance
+Create Ubuntu EC2 instance
 1. install AWSCLI
    ```sh
     curl https://s3.amazonaws.com/aws-cli/awscli-bundle.zip -o awscli-bundle.zip
@@ -339,6 +339,8 @@ The CI/CD pipeline with ansible worked like a charm and it was successful
     unzip awscli-bundle.zip
     #sudo apt-get install unzip - if you dont have unzip in your system
     ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+    
+    ![APT](./images/36.PNG)
     ```
 ![APT](./images/36.PNG)
 
