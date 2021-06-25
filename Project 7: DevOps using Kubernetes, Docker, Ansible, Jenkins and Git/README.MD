@@ -290,9 +290,13 @@ After successful installation of anisble in our Ansible Server
 
 ![APT](./images/30.PNG)
 
-After that we need to install docker in this EC2 Instance and then we will also generate our public and private key pairs.
+After that we need to install docker in this EC2 Instance and then we will also generate our public and private key pairs. We need to keep a copy of our public key in all our target machines.cd
 
 ![APT](./images/31.PNG)
+
+Transferring the public keys between our ansile server and dockerhost server is very crucial.
+
+![APT](./images/32.PNG)
 
 
 
