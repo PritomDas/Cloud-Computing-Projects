@@ -122,9 +122,14 @@ If all this worked well then we will be able to access our Tomcat server from ou
 ![APT](./images/13.PNG)
 ![APT](./images/14.PNG)
 
+Luckily our build was successful, I did had to spend a lot of time on this step, for some reason my jenkins plugin wasn't detecting tomcat server for deployment.
+
+
 ### Deploy war file on Tomcat server using Jenkins
 ![APT](./images/15.PNG)
 
+Luckily our build was successful, I did had to spend a lot of time on this step, for some reason my jenkins plugin wasn't detecting tomcat server for deployment.
+![APT](./images/16.PNG)
 
 <!-- CONTACT -->
 
