@@ -225,6 +225,7 @@ cd /home/dockeradmin; docker build -t devops-image . ; docker run -d --name devo
 
    ```
 
+![APT](./images/29.PNG)
 
 
 <!-- CONTACT -->
