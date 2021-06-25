@@ -340,6 +340,7 @@ The CI/CD pipeline with ansible worked like a charm and it was successful
     #sudo apt-get install unzip - if you dont have unzip in your system
     ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
     ```
+![APT](./images/36.PNG)
 
 1. Install kubectl on ubuntu instance
    ```sh
