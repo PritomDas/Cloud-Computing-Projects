@@ -130,7 +130,7 @@ Luckily our build was successful, I did had to spend a lot of time on this step,
 
 Luckily our build was successful, I did had to spend a lot of time on this step, for some reason my jenkins plugin wasn't detecting tomcat server for deployment.
 ![APT](./images/16.PNG)
-
+![APT](./images/17.PNG)
 <!-- CONTACT -->
 
 ## Contact
