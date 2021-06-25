@@ -209,6 +209,8 @@ docker run --name devops-container -p 8080:8080 devops-project
 
    ```
 
+Our container is working fine and we can access our container which is hosting the website
+![APT](./images/27.PNG)
 
 
 <!-- CONTACT -->
