@@ -185,7 +185,9 @@ Create a new job in Jenkins and make sure to choose the below selected option:
 ![APT](./images/23.PNG)
 ![APT](./images/24.PNG)
 
+Our build was successful
 
+![APT](./images/25.PNG)
 
 
 
