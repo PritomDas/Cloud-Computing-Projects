@@ -367,6 +367,7 @@ The CI/CD pipeline with ansible worked like a charm and it was successful
    # Note: If you create IAM user with programmatic access then provide Access keys. Otherwise region information is enough
    aws configure
     ```
+![APT](./images/37.PNG) 
 
 1. Create a Route53 private hosted zone (you can create Public hosted zone if you have a domain)
    ```sh
