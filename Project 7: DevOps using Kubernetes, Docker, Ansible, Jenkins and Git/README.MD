@@ -169,8 +169,14 @@ Currently we have no docker containers running yet.
 
 Now headover to DockerHub and we will pull an official Tomcat Docker image. This image can be found on [here](https://hub.docker.com/_/tomcat)
 
+![APT](./images/22.PNG)
 
+Let's now create a container from this docker image.
 
+   ```sh
+docker run --name tomcat-container -p 8080:8080 tomcat:latest
+
+   ```
 
 
 
