@@ -212,6 +212,17 @@ docker run --name devops-container -p 8080:8080 devops-project
 Our container is working fine and we can access our container which is hosting the website
 ![APT](./images/27.PNG)
 
+### Deploy a war file on Docker container using jenkins
+
+We go back to our jenkins server and create a new job.
+
+![APT](./images/28.PNG)
+
+
+
+
+
+
 
 <!-- CONTACT -->
 
