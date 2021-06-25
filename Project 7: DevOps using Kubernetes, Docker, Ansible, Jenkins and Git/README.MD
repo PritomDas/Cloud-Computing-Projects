@@ -99,7 +99,8 @@ Noe goto Jenkins Global Tool Configuration to set the JDK.
 
 ## Running Jenkins Job
 ![APT](./images/8.PNG)
-
+![APT](./images/9.PNG)
+![APT](./images/10.PNG)
 
 
 
