@@ -76,7 +76,7 @@ Check if is Java is installed in the EC2 instance, if not then install java usin
 Make sure to set path to the Java in this EC2 Linux machine, attaching everything step by step would make this very long so I am going to assume that by now we all know how to do this. I have used this [youtube tutorial](https://www.youtube.com/watch?v=c_nF2RnyfDU)
 ![APT](./images/4.PNG)
 
-
+To setup Jenkins Repository in our EC2 Instance, use the following [Jenkins Official Documentation](https://pkg.jenkins.io/redhat-stable/)
 
 
 <!-- CONTACT -->
