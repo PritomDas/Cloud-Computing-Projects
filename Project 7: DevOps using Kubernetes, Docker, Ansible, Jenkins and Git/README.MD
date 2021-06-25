@@ -151,7 +151,12 @@ yum install docker
 
    ```
 
+Check start and stop state of Docker
+   ```sh
+  service docker status
+  service docker start
 
+   ```
 
 <!-- CONTACT -->
 
