@@ -138,6 +138,7 @@ This step is very essential to make sure whenever there is new code, the jenkins
 ![APT](./images/18.PNG)
 
 Now the time to testify, we will make some small changes to our website's index page and see if it gets updated to our github through our CI/CD pipeline
+
 ![APT](./images/19.PNG)
 ![APT](./images/20.PNG)
 
