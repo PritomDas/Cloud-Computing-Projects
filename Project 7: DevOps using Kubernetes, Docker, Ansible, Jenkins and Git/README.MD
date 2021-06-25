@@ -111,9 +111,10 @@ yum install git -y
 
 ### Apache TomCat Web Server Setup
 
-Create another EC2 instance and use the similar configuration as before. We will install the apache tomcat server over here. Then use this [link address](https://tomcat.apache.org/download-80.cgi) to install Tomcat server in our EC2 instance. We will use the startup.sh for starting the tomcat in our new EC2 instance.
+Create another EC2 instance and use the similar configuration as before. We will install the apache tomcat server over here. Then use this [link address](https://tomcat.apache.org/download-80.cgi) to install Tomcat server in our EC2 instance. We will use the startup.sh for starting the tomcat in our new EC2 instance. Make sure to install Java and add the path in environmental variable like before.
 
 ![APT](./images/11.PNG)
+![APT](./images/12.PNG)
 
 
 <!-- CONTACT -->
