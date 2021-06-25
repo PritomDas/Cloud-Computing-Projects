@@ -116,6 +116,8 @@ Create another EC2 instance and use the similar configuration as before. We will
 ![APT](./images/11.PNG)
 ![APT](./images/12.PNG)
 
+If all this worked well then we will be able to access our Tomcat server from our web browser itself.
+![APT](./images/13.PNG)
 
 <!-- CONTACT -->
 
