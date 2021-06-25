@@ -189,8 +189,16 @@ Our build was successful
 
 ![APT](./images/25.PNG)
 
+### Creating a Dockerfile
 
+   ```sh
+FROM tomcat:latest
 
+MAINTAINER Pritom Das Radheshyam
+
+COPY ./webapp.war /usr/local/tomcat/webapps
+
+   ```
 
 
 
