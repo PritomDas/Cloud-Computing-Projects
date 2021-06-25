@@ -290,7 +290,9 @@ After successful installation of anisble in our Ansible Server
 
 ![APT](./images/30.PNG)
 
+After that we need to install docker in this EC2 Instance and then we will also generate our public and private key pairs.
 
+![APT](./images/31.PNG)
 
 
 
