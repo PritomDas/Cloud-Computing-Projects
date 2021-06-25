@@ -131,6 +131,12 @@ Luckily our build was successful, I did had to spend a lot of time on this step,
 Luckily our build was successful, I did had to spend a lot of time on this step, for some reason my jenkins plugin wasn't detecting tomcat server for deployment.
 ![APT](./images/16.PNG)
 ![APT](./images/17.PNG)
+
+### Deploy on VM through PollSCM
+
+This step is very essential to make sure whenever there is new code, the jenkins job should do automated build. We will modify the existing job that we bulit for Tomcat server and make some minor tweaks.
+![APT](./images/18.PNG)
+
 <!-- CONTACT -->
 
 ## Contact
