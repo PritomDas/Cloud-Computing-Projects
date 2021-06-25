@@ -202,6 +202,14 @@ COPY ./webapp.war /usr/local/tomcat/webapps
 
 ![APT](./images/26.PNG)
 
+The following commad will create a docker container out of our docker image.
+
+   ```sh
+docker run --name devops-container -p 8080:8080 devops-project
+
+   ```
+
+
 
 <!-- CONTACT -->
 
