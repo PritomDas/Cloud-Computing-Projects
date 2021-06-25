@@ -94,6 +94,8 @@ Check start and stop state of Jenkins
 Copy the public IPv4 address of the ec2 instance and open it in a browser with :8080 extension. After some initial steps to setup Jenkins for the first time, we will be able to get the Jenkins User Interface.
 ![APT](./images/6.PNG) 
 
+Noe goto Jenkins Global Tool Configuration to set the JDK.
+![APT](./images/7.PNG)
 
 <!-- CONTACT -->
 
