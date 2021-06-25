@@ -109,6 +109,8 @@ yum install git -y
 
    ```
 
+# Integration of Tomcat server with CI/CD pipeline
+
 ### Apache TomCat Web Server Setup
 
 Create another EC2 instance and use the similar configuration as before. We will install the apache tomcat server over here. Then use this [link address](https://tomcat.apache.org/download-80.cgi) to install Tomcat server in our EC2 instance. We will use the startup.sh for starting the tomcat in our new EC2 instance. Make sure to install Java and add the path in environmental variable like before.
@@ -119,6 +121,10 @@ Create another EC2 instance and use the similar configuration as before. We will
 If all this worked well then we will be able to access our Tomcat server from our web browser itself.
 ![APT](./images/13.PNG)
 ![APT](./images/14.PNG)
+
+### Deploy war file on Tomcat server using Jenkins
+![APT](./images/15.PNG)
+
 
 <!-- CONTACT -->
 
