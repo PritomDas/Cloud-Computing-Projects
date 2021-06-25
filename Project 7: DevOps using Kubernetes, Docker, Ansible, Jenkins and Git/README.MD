@@ -183,6 +183,7 @@ docker run --name tomcat-container -p 8080:8080 tomcat:latest
 
 Create a new job in Jenkins and make sure to choose the below selected option:
 ![APT](./images/23.PNG)
+![APT](./images/24.PNG)
 
 
 
