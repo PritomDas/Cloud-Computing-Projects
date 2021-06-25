@@ -103,7 +103,7 @@ Running Jenkins Job
 ![APT](./images/10.PNG)
 
 ### Git Setup
-We will install git in our EC2 instance
+We will install git in our EC2 instance. Run the following command from MobaXterm and then after this head over to Jenkins and add GitHub plugin in the Jenkins Portal.
    ```sh
 yum install git -y
 
