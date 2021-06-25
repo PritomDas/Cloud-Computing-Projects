@@ -303,6 +303,28 @@ Before performing the ping test, we will copy the public keys to our localhost i
 
 ![APT](./images/33.PNG)
 
+## Integration of Ansible and Jenkins
+
+Head over to Jenkins Web Console and we will need to do further integration from there. We will add another SSH server:
+
+![APT](./images/34.PNG)
+
+We will now need to write a Ansible Playbook which can integrate Dockerfile and War file into a Docker Image.
+
+
+   ```sh 
+  ---
+- hosts: all
+  become: true
+
+  tasks:
+  - name: build docker image using war file
+    command: docker build -t simple-devops-image .
+    args:
+      chdir: /opt/docker
+
+   ```
+
 
 <!-- CONTACT -->
 
