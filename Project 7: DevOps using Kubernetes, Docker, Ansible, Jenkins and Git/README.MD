@@ -82,7 +82,12 @@ To setup Jenkins Repository in our EC2 Instance, use the following [Jenkins Offi
   sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
   yum install jenkins
    ```
+Check start and stop state of Jenkins
+   ```sh
+  service jenkins status
+  service jenkins start
 
+   ```
 <!-- CONTACT -->
 
 ## Contact
