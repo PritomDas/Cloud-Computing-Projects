@@ -181,6 +181,9 @@ docker run --name tomcat-container -p 8080:8080 tomcat:latest
 
 ### Jenkins Job to copy artifacts onto DockerHost
 
+Create a new job in Jenkins and make sure to choose the below selected option:
+![APT](./images/23.PNG)
+
 
 
 
