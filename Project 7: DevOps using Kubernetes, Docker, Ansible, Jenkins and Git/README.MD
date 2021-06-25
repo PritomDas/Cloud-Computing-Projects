@@ -227,6 +227,7 @@ cd /home/dockeradmin; docker build -t devops-image . ; docker run -d --name devo
 
 ![APT](./images/29.PNG)
 
+Now build the job and we should be able to get a new docker image and docker container available.
 
 <!-- CONTACT -->
 
