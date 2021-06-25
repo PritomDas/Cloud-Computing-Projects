@@ -157,6 +157,12 @@ Check start and stop state of Docker
   service docker start
 
    ```
+Another very useful command for docker is the following which lists all running docker containers.
+
+   ```sh
+  docker ps
+
+   ```
 
 <!-- CONTACT -->
 
