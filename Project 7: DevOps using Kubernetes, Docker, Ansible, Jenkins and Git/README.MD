@@ -167,7 +167,7 @@ Currently we have no docker containers running yet.
 
 ![APT](./images/21.PNG)
 
-
+Now headover to DockerHub and we will pull an official Tomcat Docker image. This image can be found on [here](https://hub.docker.com/_/tomcat)
 
 
 
