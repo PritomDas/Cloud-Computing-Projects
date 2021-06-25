@@ -394,7 +394,7 @@ Create Ubuntu EC2 instance
 
 1. Create kubernetes cluster definitions on S3 bucket
    ```sh
-   kops create cluster --cloud=aws --zones=ap-south-1b --name=demo.pritomk8s.valaxy.net --dns-zone=valaxy.net --dns private 
+   kops create cluster --cloud=aws --zones=us-east-1b --name=demo.pritomk8s.valaxy.net --dns-zone=valaxy.net --dns private 
     ```
 
 1. Create kubernetes cluser
