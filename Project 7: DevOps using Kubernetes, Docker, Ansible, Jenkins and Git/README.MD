@@ -324,6 +324,11 @@ We will now need to write a Ansible Playbook which can integrate Dockerfile and 
       chdir: /opt/docker
 
    ```
+The CI/CD pipeline with ansible worked like a charm and it was successful
+
+![APT](./images/35.PNG)
+
+
 
 
 <!-- CONTACT -->
