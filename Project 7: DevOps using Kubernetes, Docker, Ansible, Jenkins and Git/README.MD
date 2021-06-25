@@ -163,6 +163,26 @@ Another very useful command for docker is the following which lists all running 
   docker ps
 
    ```
+Currently we have no docker containers running yet.
+
+![APT](./images/21.PNG)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- CONTACT -->
 
