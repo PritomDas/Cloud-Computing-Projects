@@ -49,6 +49,12 @@ This will be used as a Target Environment to host our applications
 To manage our Docker Containers.
 </b></details>
 
+<details>
+<summary>AWS</summary><br><b>
+
+We will set all out various tools over the Cloud using AWS.
+</b></details>
+
 <!-- CONTACT -->
 
 ## Contact
