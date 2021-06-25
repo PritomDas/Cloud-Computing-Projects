@@ -229,6 +229,11 @@ cd /home/dockeradmin; docker build -t devops-image . ; docker run -d --name devo
 
 Now build the job and we should be able to get a new docker image and docker container available.
 
+
+# Ansible for Continuous Deployment
+
+
+
 <!-- CONTACT -->
 
 ## Contact
