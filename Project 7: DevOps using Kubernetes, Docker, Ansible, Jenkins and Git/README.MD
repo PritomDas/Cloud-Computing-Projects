@@ -97,12 +97,17 @@ Copy the public IPv4 address of the ec2 instance and open it in a browser with :
 Noe goto Jenkins Global Tool Configuration to set the JDK.
 ![APT](./images/7.PNG)
 
-## Running Jenkins Job
+Running Jenkins Job
 ![APT](./images/8.PNG)
 ![APT](./images/9.PNG)
 ![APT](./images/10.PNG)
 
+## Git Setup
 
+   ```sh
+yum install git -y
+
+   ```
 
 
 
