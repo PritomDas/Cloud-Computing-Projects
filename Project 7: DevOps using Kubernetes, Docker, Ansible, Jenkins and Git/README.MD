@@ -232,7 +232,7 @@ Now build the job and we should be able to get a new docker image and docker con
 
 # Ansible for Continuous Deployment
 
-Installation steps on Amazon EC2 instance:
+Spin up another EC2 instance which will be our Ansible server. Then follow the below installation steps on Amazon EC2 instance:
 
 1. Install python and python-pip
    ```sh
