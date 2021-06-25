@@ -298,7 +298,7 @@ Transferring the public keys between our ansile server and dockerhost server is 
 
 ![APT](./images/32.PNG)
 
-Before performing the ping test, we will copy the public keys to our localhost in the ansible server. After this we will add the necessary IPv4 address in our hosts file in Ansible. Following these two steps will help us to successfully perform the ping test.
+Before performing the ping test, we will copy the public keys to our localhost in the ansible server. After this we will add the necessary IPv4 address in our hosts file in Ansible. Following these two steps will help us to successfully perform the ping test. Our pipeline is successful which means anytime a new image is available on the Ansible-Control-Node, it will auto deploy the coker image to the Docker-Host.
 
 
 ![APT](./images/33.PNG)
