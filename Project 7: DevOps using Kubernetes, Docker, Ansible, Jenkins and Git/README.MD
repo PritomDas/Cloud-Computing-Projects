@@ -142,6 +142,17 @@ Now the time to testify, we will make some small changes to our website's index 
 ![APT](./images/19.PNG)
 ![APT](./images/20.PNG)
 
+# Integration of Docker in CI/CD pipeline
+
+We will now create a Docker host by spinning up our 3rd EC2 instance. This Docker host will contain all our docker containers. Once the EC2 instance is ready, establish connection with MobaXterm. After this we will install docker in this EC2 instance.
+
+   ```sh
+yum install docker
+
+   ```
+
+
+
 <!-- CONTACT -->
 
 ## Contact
