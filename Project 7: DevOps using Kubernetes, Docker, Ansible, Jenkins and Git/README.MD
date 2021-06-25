@@ -368,7 +368,7 @@ Create Ubuntu EC2 instance
    # Note: If you create IAM user with programmatic access then provide Access keys. Otherwise region information is enough
    aws configure
     ```
-![APT](./images/37.PNG) 
+    ![APT](./images/37.PNG) 
 
 1. Create a Route53 private hosted zone (you can create Public hosted zone if you have a domain)
    ```sh
@@ -376,6 +376,7 @@ Create Ubuntu EC2 instance
    Domain Name: valaxy.net
    Type: Private hosted zone for Amazon VPC. Make sure you are chosing right VPC if you have multiple
    ```
+   ![APT](./images/38.PNG)
 
 1. create an S3 bucket
    ```sh
