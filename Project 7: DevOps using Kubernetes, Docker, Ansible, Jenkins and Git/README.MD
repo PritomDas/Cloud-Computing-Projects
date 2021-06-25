@@ -218,9 +218,12 @@ We go back to our jenkins server and create a new job.
 
 ![APT](./images/28.PNG)
 
+We will initially push our docker file in dockerhost, once it is available in dockerhost then we will create a docker image out of it, those necessary command will be executed through "Send build artifacts over SSH".
 
+   ```sh
+cd /home/dockeradmin; docker build -t devops-image . ; docker run -d --name devops-container -p 8080:8080 devops-image;
 
-
+   ```
 
 
 
