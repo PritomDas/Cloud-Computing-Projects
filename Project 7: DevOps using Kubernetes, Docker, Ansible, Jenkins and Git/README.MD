@@ -380,11 +380,11 @@ Create Ubuntu EC2 instance
 
 1. create an S3 bucket
    ```sh
-    aws s3 mb s3://demo.k8s.valaxy.net
+    aws s3 mb s3://demo.pritomk8s.valaxy.net
    ```
 1. Expose environment variable:
    ```sh
-    export KOPS_STATE_STORE=s3://demo.k8s.valaxy.net
+    export KOPS_STATE_STORE=s3://demo.pritomk8s.valaxy.net
    ```
 
 1. Create sshkeys before creating cluster
@@ -394,19 +394,19 @@ Create Ubuntu EC2 instance
 
 1. Create kubernetes cluster definitions on S3 bucket
    ```sh
-   kops create cluster --cloud=aws --zones=ap-south-1b --name=demo.k8s.valaxy.net --dns-zone=valaxy.net --dns private 
+   kops create cluster --cloud=aws --zones=ap-south-1b --name=demo.pritomk8s.valaxy.net --dns-zone=valaxy.net --dns private 
     ```
 
 1. Create kubernetes cluser
     ```sh
-    kops update cluster demo.k8s.valaxy.net --yes
+    kops update cluster demo.pritomk8s.valaxy.net --yes
     ```
 1. To cahnge the kubernetes master and worker instance sizes 
    ```sh 
    kops edit ig --name=<cluster_name> nodes
-   #kops edit ig --name=demo.k8s.valaxy.net nodes 
+   #kops edit ig --name=demo.pritomk8s.valaxy.net nodes 
    kops edit ig --name=<cluster_name> master-<zone_name>
-   #kops edit ig --name=demo.k8s.valaxy.net master-ap-south-1b
+   #kops edit ig --name=demo.pritomk8s.valaxy.net master-ap-south-1b
    ```
 1. to Delete cluster (try once your lab is done)
    ```sh 
