@@ -143,12 +143,16 @@ Linux-PAM separates the tasks of authentication into four independent management
 </b></details>
 
 
-### Sytem Hardening
+### Sytem Hardening- The core principles:
 To improve the security level of a system, we take different types of measures. This could be the removal of an existing system service or uninstall some software components. System hardening is the process of doing the ‘right’ things. The goal is to enhance the security level of the system. There are many aspects to securing a system properly. Yet, the basics are similar for most operating systems. So the system hardening process for Linux desktop and servers is that that special.
 
 The core principles of System Hardening:
 
 * Principe of least privilege: it means that you give users and processes the bare minimum of permission to do their job. It is similar to granting a visitor access to a building. You could give full access to the building, including all sensitive areas. The other option is to only allow your guest to access a single floor where they need to be. Eg: When read-only access is enough, don’t give write permissions
+
+* Segmentation: means that you split bigger areas into smaller ones. If we look at that building again, we have split it into multiple floors. Each floor can be further divided into different zones. Maybe you visitor is only allowed on floor 4, in the blue zone. If we translate this to Linux security, this principle would apply to memory usage. Each process can only access their own memory segments.
+* Reduction: This principle aims to remove something that is not strictly needed for the system to work. It looks like the principle of least privilege, yet focuses on preventing something in the first place. A process that does not have to run, should be stopped. Similar for unneeded user accounts or sensitive data that is no longer being used.
+
 
 
 <!-- CONTACT -->
