@@ -155,54 +155,35 @@ The core principles of System Hardening:
 
 ### System Hardening Procedure
 * Install security updates and patches
-Most weaknesses in systems are caused by flaws in software. These flaws we call vulnerabilities. Proper care for software patch management help with reducing a lot of the related risks. The activity of installing updates often has a low risk, especially when starting with the security patches first. Most Linux distributions have the option to limit what packages you want to upgrade (all, security only, per package). Make sure that your security updates are installed as soon as they come available. It goes without saying, before you implementing something, test it first on a (virtual) test system.
+Most weaknesses in systems are caused by flaws in software. These flaws we call vulnerabilities. Proper care for software patch management help with reducing a lot of the related risks. The activity of installing updates often has a low risk, especially when starting with the security patches first. Most Linux distributions have the option to limit what packages you want to upgrade (all, security only, per package). Make sure that your security updates are installed as soon as they come available. It goes without saying, before you implementing something, test it first on a (virtual) test system. Depending on your Linux distribution there might be a way to implement security patches automatically, like unattended upgrades on Debian and Ubuntu. This makes software patch management a lot easier!
 
-Depending on your Linux distribution there might be a way to implement security patches automatically, like unattended upgrades on Debian and Ubuntu. This makes software patch management a lot easier!
-
-2. Use strong passwords
+* Use strong passwords
 The main gateway to a system is by logging in as a valid user with the related password of that account. Strong passwords make it more difficult for tools to guess the password and let malicious people walk in via the front door. A strong password consists of a variety of characters (alphanumeric, numbers, special like percent, space, or even Unicode characters).
 
-3. Bind processes to localhost
+* Bind processes to localhost
 Not all services have to be available via the network. For example, when running a local instance of MySQL on your web server, let it only listen on a local socket or bind to localhost (127.0.0.1). Then configure your application to connect via this local address, which is typically already the default.
 
-4. Implement a firewall
-Only allowed traffic should in an ideal situation reach your system. To achieve this, implement a firewall solution like iptables, or the newer nftables.
+* Implement a firewall
+Only allowed traffic should in an ideal situation reach your system. To achieve this, implement a firewall solution like iptables, or the newer nftables. When creating a policy for your firewall, consider using a “deny all, allow some” policy. So you deny all traffic by default, then define what kind of traffic you want to allow. This is especially useful for incoming traffic, to prevent sharing services you didn’t intend to share.
 
-When creating a policy for your firewall, consider using a “deny all, allow some” policy. So you deny all traffic by default, then define what kind of traffic you want to allow. This is especially useful for incoming traffic, to prevent sharing services you didn’t intend to share.
 
-Useful reads:
+* Keep things clean
+Everything installed on a system which doesn’t belong there can only negatively impact your machine. It will also increase your backups (and restore times). Or they might contain vulnerabilities. A clean system is often a more healthy and secure system. Therefore minimalization is a great method in the process of Linux hardening. Delete unused package. Clean up old home directories and remove the users
 
-Differences between iptables and nftables
-5. Keep things clean
-Everything installed on a system which doesn’t belong there can only negatively impact your machine. It will also increase your backups (and restore times). Or they might contain vulnerabilities. A clean system is often a more healthy and secure system. Therefore minimalization is a great method in the process of Linux hardening.
-
-Actionable tasks include:
-
-Delete unused package
-Clean up old home directories and remove the users
-6. Secure configurations
+* Secure configurations
 Most applications have one or more security measures available to protect against some forms of threats to the software or system. Look at the man page for any options and test these options carefully.
 
-7. Limit access
+* Limit access
 Only allow access to the machine for authorized users. Does someone really need access or are alternative methods possible to give the user what he or she wants?
 
-8. Monitor your systems
+* Monitor your systems
 Most intrusions are undetected, due to lack of monitoring. Implement normal system monitoring and implement monitoring on security events. For example, the use of the Linux audit framework increased detection rates of suspected events.
 
-9. Create backups (and test!)
-Regularly make a backup of system data. This can prevent data loss. Even more important, test your backups. Having a backup is nice, but it is the restore that really counts!
+* Create backups (and test!)
+Regularly make a backup of system data. This can prevent data loss. Even more important, test your backups. Having a backup is nice, but it is the restore that really counts! Backups can be done with existing system tools like tar and scp. Another option to spare bandwidth is synchronizing data with tools like rsync. If you rather want to use a backup program, consider Amanda or Bacula.
 
-Backups can be done with existing system tools like tar and scp. Another option to spare bandwidth is synchronizing data with tools like rsync. If you rather want to use a backup program, consider Amanda or Bacula.
-
-10. Perform system auditing
-Lynis (Linux/Unix auditing tool) screenshot
-Screenshot of a Linux server security audit performed with Lynis.
-
-You can’t properly protect a system if you don’t measure it.
-
-Use a security tool like Lynis to perform a regular audit of your system. Any findings are showed on the screen and also stored in a data file for further analysis. With an extensive log file, it allows to use all available data and plan next actions for further system hardening.
-
-Lynis runs on almost all Linux systems or Unix flavors. It only requires a normal shell. Root permissions are preferred, yet not needed. The security tool is free to use and open source software (FOSS).
+* Perform system auditing
+Lynis (Linux/Unix auditing tool) screenshot. Screenshot of a Linux server security audit performed with Lynis. Use a security tool like Lynis to perform a regular audit of your system. Any findings are showed on the screen and also stored in a data file for further analysis. With an extensive log file, it allows to use all available data and plan next actions for further system hardening. Lynis runs on almost all Linux systems or Unix flavors. It only requires a normal shell. Root permissions are preferred, yet not needed. The security tool is free to use and open source software (FOSS).
 
 
 <!-- CONTACT -->
