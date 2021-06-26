@@ -154,7 +154,7 @@ The core principles of System Hardening:
 * Reduction: This principle aims to remove something that is not strictly needed for the system to work. It looks like the principle of least privilege, yet focuses on preventing something in the first place. A process that does not have to run, should be stopped. Similar for unneeded user accounts or sensitive data that is no longer being used.
 
 ### System Hardening Procedure
-1. Install security updates and patches
+* Install security updates and patches
 Most weaknesses in systems are caused by flaws in software. These flaws we call vulnerabilities. Proper care for software patch management help with reducing a lot of the related risks. The activity of installing updates often has a low risk, especially when starting with the security patches first. Most Linux distributions have the option to limit what packages you want to upgrade (all, security only, per package). Make sure that your security updates are installed as soon as they come available. It goes without saying, before you implementing something, test it first on a (virtual) test system.
 
 Depending on your Linux distribution there might be a way to implement security patches automatically, like unattended upgrades on Debian and Ubuntu. This makes software patch management a lot easier!
