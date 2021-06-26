@@ -63,6 +63,54 @@ rm stands for remove here. rm command is used to remove objects such as files, d
 </b></details>
 
 
+<details>
+<summary>useradd</summary><br><b>
+Only root or users with sudo privileges can use the useradd command to create new user accounts. When invoked, useradd creates a new user account according to the options specified on the command line and the default values set in the /etc/default/useradd file.
+</b></details>
+
+
+<details>
+<summary>usermod</summary><br><b>
+usermod command or modify user is a command in Linux that is used to change the properties of a user in Linux through the command line. After creating a user we have to sometimes change their attributes like password or login directory etc. so in order to do that we use the Usermod command. The infomration of a user is stored in the following files:
+
+/etc/passwd
+/etc/group
+/etc/shadow
+/etc/login.defs
+/etc/gshadow
+/etc/login.defs
+When we execute usermod command in temrinal the command make the changes in these files itself.
+</b></details>
+
+<details>
+<summary>rm</summary><br><b>
+
+</b></details>
+
+<details>
+<summary>rm</summary><br><b>
+
+</b></details>
+
+<details>
+<summary>rm</summary><br><b>
+
+</b></details>
+
+
+
+
+
+
+
+
+
+
+<details>
+<summary>rm</summary><br><b>
+
+</b></details>
+
 
 <!-- CONTACT -->
 
