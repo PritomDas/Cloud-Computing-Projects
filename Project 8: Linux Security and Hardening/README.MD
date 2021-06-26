@@ -73,18 +73,19 @@ Only root or users with sudo privileges can use the useradd command to create ne
 <summary>usermod</summary><br><b>
 usermod command or modify user is a command in Linux that is used to change the properties of a user in Linux through the command line. After creating a user we have to sometimes change their attributes like password or login directory etc. so in order to do that we use the Usermod command. The infomration of a user is stored in the following files:
 
-/etc/passwd
-/etc/group
-/etc/shadow
-/etc/login.defs
-/etc/gshadow
-/etc/login.defs
+* /etc/passwd
+* /etc/group
+* /etc/shadow
+* /etc/login.defs
+* /etc/gshadow
+* /etc/login.defs
+  
 When we execute usermod command in temrinal the command make the changes in these files itself.
 </b></details>
 
 <details>
-<summary>rm</summary><br><b>
-
+<summary>groupadd</summary><br><b>
+Groups in Linux refer to the user groups. In Linux, there can be many users of a single system, (normal user can take uid from 1000 to 60000, and one root user (uid 0) and 999 system users (uid 1 to 999)). In a scenario where there are many users, there might be some privileges that some users have and some don’t, and it becomes difficult to manage all the permissions at the individual user level. So using groups, we can group together a number of users, and set privileges and permissions for the entire group. groupadd command is used to create a new user group.
 </b></details>
 
 <details>
