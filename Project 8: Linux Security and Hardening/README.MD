@@ -113,6 +113,25 @@ Groups in Linux refer to the user groups. In Linux, there can be many users of a
 </b></details>
 
 
+### Basic Linux Knowledge
+
+<details>
+<summary>PAM</summary><br><b>
+
+Linux Pluggable Authentication Modules (PAM) is a suite of libraries that allows a Linux system administrator to configure methods to authenticate users. It provides a flexible and centralized way to switch authentication methods for secured applications by using configuration files instead of changing application code. There are Linux PAM libraries allowing authentication using methods such as local passwords, LDAP, or fingerprint readers. Linux PAM is evolved from the Unix Pluggable Authentication Modules architecture.
+  
+Linux-PAM separates the tasks of authentication into four independent management groups:
+
+* account modules check that the specified account is a valid authentication target under current conditions. This may include conditions like account expiration, time of day, and that the user has access to the requested service.
+* authentication modules verify the user's identity, for example by requesting and checking a password or other secret. They may also pass authentication information on to other systems like a keyring.
+* password modules are responsible for updating passwords, and are generally coupled to modules employed in the authentication step. They may also be used to enforce strong passwords.
+* session modules define actions that are performed at the beginning and end of sessions. A session starts after the user has successfully authenticated.
+
+</b></details>
+
+
+
+
 <!-- CONTACT -->
 
 ## Contact
