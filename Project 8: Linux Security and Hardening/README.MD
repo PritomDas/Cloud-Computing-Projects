@@ -93,26 +93,6 @@ Groups in Linux refer to the user groups. In Linux, there can be many users of a
 If you prefix “sudo” with any linux command, it will run that command with elevated privileges.  Elevated privileges are required to perform certain administrative tasks.  Someday you may wish to run a LAMP (Linux Apache MySQL PHP) server, and have to manually edit your config files.  You might also have to restart or reset the Apache web server or other service daemons.  You even need elevated privileges to shutdown or restart the computer. 
 </b></details>
 
-<details>
-<summary>xxx</summary><br><b>
-
-</b></details>
-
-
-<details>
-<summary>xxx</summary><br><b>
-
-</b></details>
-
-
-<details>
-<summary>xxx</summary><br><b>
-
-</b></details>
-
-
-<details>
-<summary>xxx</summary><br><b>
 
 </b></details>
 
