@@ -1,9 +1,6 @@
 <!-- PROJECT LOGO -->
 <br />
 
-<p align="center">
-  <img src="./images/1.jpg" alt="Logo" width="600" height="600">
-</p>
 
 
 > Linux, Linux System Administration, Linux Secrutiy, Hardening Linux System
